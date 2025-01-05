@@ -5,7 +5,6 @@ body{
     padding-right: 2%;
 }
 
-
 .container{
     display: flex;
     justify-content: center;
@@ -17,7 +16,7 @@ body{
    width: 80%;
    text-align:left;
    margin-left:0;
-   margin-top: 70px;
+   margin-top: 40px;
    height: 2px;
    background-color: black;
 }
@@ -51,4 +50,37 @@ body{
 .education-details{
     margin-top: -10px;
     line-height: 25px;
+}
+
+.job-list{
+    margin-top: -5px;
+    padding-left: 20px;
+}
+
+.job{
+    margin-bottom: 5px;
+}
+
+.job-skills{
+    margin-top: -5px;
+}
+
+.socials{
+    margin-top: -5px;
+    line-height: 25px;
+}
+
+/* Responsiveness */
+
+@media only screen and (min-width: 601px){
+    body{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .container{
+        border: 1px solid black;
+        padding: 2%;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px 0 rgba(192, 192, 192, 0.2), 0 6px 20px 0 rgba(220, 220, 220, 0.19);
+    }
 }
